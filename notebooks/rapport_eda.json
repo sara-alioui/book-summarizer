@@ -1,0 +1,33 @@
+{
+  "nb_exemples": 100,
+  "longueur_livre": {
+    "moyenne": 5425.1,
+    "min": 3204,
+    "max": 9944,
+    "std": 1515.2
+  },
+  "longueur_resume": {
+    "moyenne": 353.5,
+    "min": 86,
+    "max": 959,
+    "std": 215.7
+  },
+  "chunks": {
+    "taille_chunk_A": 512,
+    "overlap_A": 50,
+    "moyenne_par_livre": 11.1,
+    "max_par_livre": 20
+  },
+  "ratio_compression_moyen": 20.3,
+  "qualite": {
+    "resumes_vides": 0,
+    "resumes_courts": 0,
+    "doublons": 0
+  },
+  "recommandations_B2": [
+    "max_input_tokens recommandé : 512 (chunk size de Personne A)",
+    "max_target_tokens recommandé : 512",
+    "Tokenizer doit gérer du texte littéraire anglais",
+    "Personne A utilise t5-small → utiliser le même tokenizer pour cohérence"
+  ]
+}
