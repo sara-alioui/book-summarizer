@@ -1,0 +1,49 @@
+{
+  "tokenizer_choisi": "BPE (PEGASUS)",
+  "modele_huggingface": "google/pegasus-xsum",
+  "scores": {
+    "BPE (BART)": 10.053,
+    "BPE (PEGASUS)": 19.221,
+    "SentencePiece (T5)": 8.346
+  },
+  "resultats_benchmark": {
+    "BPE (BART)": {
+      "vocab_size": 50265,
+      "moy_tokens_livre": 7424.4,
+      "moy_tokens_resume": 411.4,
+      "taux_oov_pct": 0.0,
+      "ratio_tokens_mots": 1.26,
+      "duree_sec": 1.03
+    },
+    "BPE (PEGASUS)": {
+      "vocab_size": 96103,
+      "moy_tokens_livre": 7234.6,
+      "moy_tokens_resume": 393,
+      "taux_oov_pct": 0.0,
+      "ratio_tokens_mots": 1.228,
+      "duree_sec": 1.178
+    },
+    "SentencePiece (T5)": {
+      "vocab_size": 32100,
+      "moy_tokens_livre": 8548.6,
+      "moy_tokens_resume": 477.6,
+      "taux_oov_pct": 0.0,
+      "ratio_tokens_mots": 1.451,
+      "duree_sec": 1.907
+    }
+  },
+  "justification": [
+    "Cohérence avec DataLoader de Personne A (t5-small)",
+    "OOV rate : 0.0%",
+    "Vocab size : 96,103",
+    "max_length input  = 512 (taille chunk de Personne A)",
+    "max_length output = 530"
+  ],
+  "parametres_tokenisation": {
+    "max_input_length": 512,
+    "max_target_length": 530,
+    "truncation": true,
+    "padding": "max_length",
+    "return_tensors": "pt"
+  }
+}
