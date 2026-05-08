@@ -1,0 +1,70 @@
+{
+  "modele_test": "google/pegasus-xsum",
+  "type_test": "zero_shot",
+  "nombre_exemples": 5,
+  "rouge_scores_baseline": {
+    "rouge1": 0.2509715459486511,
+    "rouge2": 0.04247907840481294,
+    "rougeL": 0.1469025702293663
+  },
+  "resultats_detailles": [
+    {
+      "index": 0,
+      "reference": "Before any characters appear, the time and geography are made clear. Though it is the last war that England and France waged for a country that neither would retain, the wilderness between the forces still has to be overcome first. Thus it is in 1757, in the New York area between the head waters of the Hudson River and Lake George to the north. Because only two years earlier General Braddock was disgracefully routed by a handful of French and Indians, the frontier is now exposed to real and imaginary savage disasters as well as to the horrors of warfare. Fear has replaced reason. Near dusk of a day in July, an Indian runner named Magua arrives at Fort Edward on the upper Hudson. He has come from Fort William Henry at the southern tip of Lake George with the news that the French General Montcalm is moving south with a very large army and that Munro, commander of Fort William Henry, is in urgent need of plentiful reinforcements from General Webb. Early the next morning, a limited detachment of fifteen hundred regulars and colonists departs as if swallowed by the forest. Shortly afterwards, Major Duncan Heyward and Alice and Cora Munro, guided by Magua on foot, take by horseback a secret route toward William Henry for the girls to join their father. Blonde Alice is doubtful about Magua, covered with war paint and showing a sullen fierceness; but dark-haired Cora is stoically common sense about him, even though Heyward mentions that their father had once had to deal rigidly with the Indian. As the small party pushes on, they are overtaken by David Gamut, a tall, ungainly psalmodist ridiculously dressed and carrying a pitch pipe while riding a mare followed by its young colt. He desires to join them, and after some banter between him and Alice, he pulls out the twenty-sixth edition of The Bay Psalm Book, sounds his pipe, and renders a song \"in full, sweet, and melodious tones.\" At a muttered comment from Magua, Heyward insists upon silence for safety. Then he glances about them and, satisfied that he has seen only shining berries, smiles to himself as they move on. But he is wrong. The branches move and a man peers exultingly after them as they disappear among the dark lines of trees.",
+      "prediction": "In our series of letters from African-American journalists, film-maker and columnist Sharmila Tagore considers the role of the wilderness in the colonial wars of North America, and looks at the role played by nature in the conflict between the French and English colonists and their allies in New York and Canada in the first half of the 19th Century, and how nature played a part in the outcome of those conflicts.<n> The facilities which nature had there offered to the march of the combatants were too long to be neglected, or to be an exemption from any order to strike their enemies.",
+      "longueur_ref": 388,
+      "longueur_pred": 102
+    },
+    {
+      "index": 1,
+      "reference": "In another part of the forest by the river a few miles to the west, Hawkeye and Chingachgook appear to be waiting for someone as they talk with low voices. It is now afternoon. The Indian and the scout are attired according to their forest habits: Chingachgook with his semi-nude, war-painted body and scalping tuft of hair, his tomahawk, scalping knife, and short rifle; Hawkeye with his hunting shirt, skin cap, buckskin leggings, knife, pouch and horn, and long rifle. They discuss their respective forefathers, and Chingachgook relates the slow demise of his tribe of Mohicans so that only he and his son Uncas now remain. At the mention of his name, Uncas, a youthful warrior dressed much like Hawkeye, appears and says that he has been on the trail of the Maquas, another name for the Mengwe or Iroquois, their natural enemies. The antlers of a deer are seen in the distance, and Hawkeye is about to shoot the animal for food when the warrior warns him that a shot will warn the enemy. Just as Uncas kills it with an arrow, they hear the sounds of feet which Chingachgook recognizes as the horses of white men.",
+      "prediction": "This is a quotation from one of Heyward's most famous poems, which he wrote while in the company of a group of men who had been sent to the woods by the British to hunt Indian prisoners, and which he continued to write while in their company, while they were still in their cells, and while he was still in the woods, and as he was writing it at the time of his death, on the night of the 7th of July, 1716., which is one of the most famous lines in the history of American literature.",
+      "longueur_ref": 198,
+      "longueur_pred": 97
+    },
+    {
+      "index": 2,
+      "reference": "When the mounted party from Fort Howard approaches the three men of the woods, Hawkeye addresses first Gamut and then Heyward only to learn that they are lost because their Indian guide has taken them west instead of north toward Fort William Henry. Doubtful, especially when he learns that the guide is a Huron who has been adopted by the Mohawks, Hawkeye makes an a priori judgment of the still-unseen guide and uses the contemptuous term Mingo: \"he who is born a Mingo will die a Mingo.\" His two Indian companions concur with his thinking. Still doubting and cautious, be baits Heyward by bantering away about Indians until Heyward reveals that he is the major of the 60th regiment of the king at William Henry. Walking to the rear of the party for a look at Magua, Hawkeye returns and says that he could guide them back to Fort Edward, which is only an hour's journey away, but that it would be impossible because of the ladies and the dangers of coming night, particularly with the Mohawk as a companion. He suggests his shooting and disabling Magua from where he stands, but the major will not hear of it. Consequently, as the sun goes down, he sends the two Mohicans through the thickets on opposite sides of the path and tells the major to engage Magua in talk while he himself converses with Gamut. Magua proudly refers to himself as Le Renard Subtil , the name his Canada fathers have given him. He is cautiously quiet but allows Heyward to convince him to sit and eat. As slight sounds in the thicket make Le Renard alert, Heyward dismounts, determined to seize the treacherous guide, but the latter strikes up the major's arm, gives a piercing cry, and darts away into the thicket. Immediately Chingachgook and Uncas appear and give swift pursuit just as a flash comes from Hawkeye's rifle.",
+      "prediction": "The hunter's eyes were fixed on the deer, and the deer's antlers gleamed in the midsummer night's light, as if they had been caught by a bolt of lightning, while the scout's lips were fastened to the tree, and his tongue held firmly to the bark, as though he were pleading with God to save the deer from the wrath of the hunter, and to keep him safe from the clutches of the deer and its antlers, and from all the dangers of the wilderness.",
+      "longueur_ref": 319,
+      "longueur_pred": 85
+    },
+    {
+      "index": 10,
+      "reference": "The siege is now almost five days old, and when in the afternoon Major Heyward repairs to the ramparts of one of the water bastions, nature seems to have resumed \"her mildest and most captivating form.\" Two white flags indicate that a truce has been made. The musing Heyward sees Hawkeye, bound and haggard, advancing toward the fort in the custody of a French officer. About to descend from the bastion, the major meets the two sisters, and Alice teases him for neglecting them. Cora says little and seems to be in anguish. Heyward leaves to find Munro, who is now bitter and ironical because General Webb apparently is sending no help. While on message duty, Hawkeye has been captured and graciously returned, but the letter he carried from Webb has been kept by Montcalm, who has requested a parley with Munro. Instead, Munro sends the major. Montcalm is courteous and urbane, surrounded by officers and Indians, among whom is Magua, sullen and malignant. The French general reminds Heyward of the superior French forces and suggests a surrender, indicating that the Indians are hard to restrain. Heyward fails to learn anything about the letter and leaves carrying another request that Munro arrange to talk with Montcalm.",
+      "prediction": "\"Then go we in, to know his embassy; Which I could, with ready guess, declare, Before the Frenchman speak a word of it.\" _King Henry V._ A few succeeding days were passed amid the privations, the uproar, and the dangers of the siege, which was vigorously pressed by a power against whose approaches Munro possessed no competent means of resistance. As if satisfied with the toil of marching through the wilderness to encounter his enemy, the French general, though of approved skill, had neglected to seize the adjacent mountains; whence the besieged might have been exterminated with impunity, and which, in the more modern warfare of the country, would not have been neglected for a single hour.",
+      "longueur_ref": 206,
+      "longueur_pred": 117
+    },
+    {
+      "index": 42,
+      "reference": "On the third day after the surprise attack, Hawkeye, the Mohicans, Munro, and Heyward approach the besieged ramparts, which still smoke with fire and smell of death. Cora and Alice remain missing, and the men desperately seek for signs of life. They find no apparent signals or codes. When they begin looking for a trail, Uncas discovers part of Cora's green riding veil. Other clues lead the men to the former location of the horses, and they conclude that the girls, accompanied by Magua and Gamut, have gone into the wilderness. Heyward wants to pursue them immediately, but Hawkeye insists upon careful deliberation and planning. Munro, depressed by his daughters' disappearance, is apathetic",
+      "prediction": "In our series of letters from African journalists, film-maker and columnist Paul Auster reflects on the life and times of William Henry, the French commander who was killed by his own soldiers at the Battle of the Horican, in 1655... and how it affects his legacy in the eyes of those who know him best, and those who have followed his life and work.., published in The New York Times in 1666, and reprinted in The Washington Post and other publications in the 1970s.",
+      "longueur_ref": 113,
+      "longueur_pred": 84
+    }
+  ],
+  "comparaison_references": {
+    "BART (fine-tuned BookSum)": {
+      "rouge1": 45.2,
+      "rouge2": 22.1,
+      "rougeL": 42.0
+    },
+    "PEGASUS (fine-tuned)": {
+      "rouge1": 48.5,
+      "rouge2": 25.3,
+      "rougeL": 45.0
+    },
+    "T5 (fine-tuned)": {
+      "rouge1": 44.8,
+      "rouge2": 21.7,
+      "rougeL": 41.5
+    }
+  },
+  "conclusion": {
+    "baseline_rouge1": 0.2509715459486511,
+    "gain_attendu_finetuning": "10-20 points ROUGE-1",
+    "modele_recommande": "PEGASUS (meilleures performances sur résumé)",
+    "prochaine_etape": "B4 — Fine-tuning avec train_dataset.pt de Personne A"
+  }
+}
