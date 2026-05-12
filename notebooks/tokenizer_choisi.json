@@ -13,7 +13,7 @@
       "moy_tokens_resume": 411.4,
       "taux_oov_pct": 0.0,
       "ratio_tokens_mots": 1.26,
-      "duree_sec": 0.782
+      "duree_sec": 3.8
     },
     "BPE (PEGASUS)": {
       "vocab_size": 96103,
@@ -21,7 +21,7 @@
       "moy_tokens_resume": 393,
       "taux_oov_pct": 0.0,
       "ratio_tokens_mots": 1.227,
-      "duree_sec": 0.622
+      "duree_sec": 3.084
     },
     "SentencePiece (T5)": {
       "vocab_size": 32100,
@@ -29,7 +29,7 @@
       "moy_tokens_resume": 477.6,
       "taux_oov_pct": 0.0,
       "ratio_tokens_mots": 1.451,
-      "duree_sec": 0.897
+      "duree_sec": 1.862
     }
   },
   "justification": [

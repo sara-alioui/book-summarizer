@@ -11,36 +11,36 @@
     "gradient_accumulation_steps": 8,
     "output_dir": "model_finetuned"
   },
-  "meilleure_epoch": 3,
+  "meilleure_epoch": 2,
   "meilleurs_scores": {
-    "rouge1": 0.2968,
-    "rouge2": 0.0361,
-    "rougeL": 0.1826
+    "rouge1": 0.2882,
+    "rouge2": 0.0703,
+    "rougeL": 0.187
   },
   "historique": [
     {
       "epoch": 1,
-      "train_loss": 4.5989,
-      "val_loss": 3.5743,
-      "rouge1": 0.2179,
+      "train_loss": 4.6374,
+      "val_loss": 3.5728,
+      "rouge1": 0.1755,
       "rouge2": 0.0198,
-      "rougeL": 0.1314
+      "rougeL": 0.1069
     },
     {
       "epoch": 2,
-      "train_loss": 3.771,
-      "val_loss": 3.329,
-      "rouge1": 0.2569,
-      "rouge2": 0.0691,
-      "rougeL": 0.1877
+      "train_loss": 3.732,
+      "val_loss": 3.317,
+      "rouge1": 0.2882,
+      "rouge2": 0.0703,
+      "rougeL": 0.187
     },
     {
       "epoch": 3,
-      "train_loss": 3.4718,
-      "val_loss": 3.3047,
-      "rouge1": 0.2968,
-      "rouge2": 0.0361,
-      "rougeL": 0.1826
+      "train_loss": 3.4708,
+      "val_loss": 3.2976,
+      "rouge1": 0.2243,
+      "rouge2": 0.0331,
+      "rougeL": 0.1577
     }
   ],
   "message_pour_A4": "Modèle LoRA disponible dans 'model_finetuned'. Charger avec : PeftModel.from_pretrained(base_model, 'model_finetuned')"

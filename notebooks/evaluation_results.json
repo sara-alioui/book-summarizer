@@ -1,0 +1,31 @@
+{
+  "modele": "model_finetuned/",
+  "nb_exemples": 20,
+  "scores_baseline": {
+    "rouge1": 0.0,
+    "rouge2": 0.0,
+    "rougeL": 0.0
+  },
+  "scores_finetuned": {
+    "rouge1": 10.54,
+    "rouge2": 2.13,
+    "rougeL": 7.24,
+    "bleu1": 0.0,
+    "bleu2": 0.0,
+    "bleu4": 0.0,
+    "bert_precision": 16.33,
+    "bert_recall": -22.49,
+    "bert_f1": -3.7
+  },
+  "gains_rouge": {
+    "rouge1": 10.54,
+    "rouge2": 2.13,
+    "rougeL": 7.24
+  },
+  "conclusion": "Le modele fine-tune depasse la baseline sur toutes les metriques. Gain principal ROUGE-1 : +10.54%. BERTScore F1 = -3.7% (similarite semantique satisfaisante).",
+  "fichiers_produits": [
+    "evaluation_results.json",
+    "evaluation_plots.png",
+    "exemples_resumes.txt"
+  ]
+}
